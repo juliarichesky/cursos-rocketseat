@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevLinks</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./assets/img/favicon.svg" type="image/x-icon">
+</head>
+<body>
+    <div id="container">
+        <div id="profile">
+            <img src="../assets/img/avatar.png" alt="Foto de Perfil - Julia Richesky">
+            <p>@juliarichesky</p>
+        </div>
+        <!--onclick é um atributo de evento que permite que você execute um script (geralmente em JavaScript) quando um elemento HTML é clicado pelo usuário. -->
+        <div id="switch" onclick="toggleMode()">
+            <button></button>
+            <span></span>
+        </div>
+        <ul>
+            <li>
+                <a href="#">Portfólio</a>
+            </li>
+            <li>
+                <a href="#" target="_blank">Currículo</a>
+            </li>
+            <li>
+                <a href="mailto:juliavaleriogs@gmail.com" target="_blank">E-mail</a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/juliarichesky/details/certifications/" target="_blank">Certificações/Cursos</a>
+            </li>
+        </ul>
+        <div id="social-links">
+            <a href="https://github.com/juliarichesky" alt="Link com acesso ao GitHub" target="_blank">
+                <ion-icon name="logo-github"></ion-icon>
+            </a>
+            <a href="https://www.linkedin.com/in/juliarichesky/" alt="Link com acesso ao LinkedIn" target="_blank">
+                <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+            <a href="https://www.instagram.com/juliarichesky/" alt="Link com acesso ao Instagram" target="_blank">
+                <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+            <a href="https://wa.me/5511994193132?text=Olá,%20gostaria%20de%20mais%20informações%20sobre%20seu%20trabalho." alt="Link com acesso ao WhatsApp" target="_blank">
+                <ion-icon name="logo-whatsapp"></ion-icon>
+            </a>
+        </div>
+        <footer>
+            Feito com &#x2764; pela <a href="">Julia Richesky</a>
+        </footer>
+    </div>
+
+        <script
+        type="module"
+        src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script
+        nomodule
+        src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+        <script src="./js/script.js"></script>
+</body>
+</html>
