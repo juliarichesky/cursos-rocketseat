@@ -19,3 +19,4 @@ this repository brings together all the material produced throughout my studies 
 ## ⭐ sumary
 
 - <a href="https://github.com/juliarichesky/cursos-rocketseat/tree/main/nlw-pocket-iniciantes/site-prompts">Site de Armazenamento de Prompts</a>
+- <a href="https://github.com/juliarichesky/cursos-rocketseat/tree/main/devlinks">Links Úteis para Desenvolvedores</a>
